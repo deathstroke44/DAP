@@ -176,3 +176,9 @@ def Train_Model(city='Atlanta'):
 # cities = ['Atlanta', 'Austin', 'Charlotte', 'Dallas', 'Houston', 'LosAngeles']
 # for city in cities:
 #     result = Train_Model(city) #the output 'result' contains prediction evaluation metrics such as f1-score 
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('--city', type=str, default='Atlanta')
+args = parser.parse_args()
+CITY=args.city
+result = Train_Model(CITY)

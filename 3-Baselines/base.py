@@ -169,7 +169,7 @@ class keras_model(base_model):
                    'micro avg': roc_dict['micro'],
                    'macro avg':roc_dict['macro']}, ignore_index=True)
         df = df.set_index('index')
-        display(df)
+        print(df)
         return df
         
     def roc_auc(self,y_test,y_score):
