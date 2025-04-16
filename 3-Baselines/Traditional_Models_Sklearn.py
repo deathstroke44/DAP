@@ -88,13 +88,13 @@ class base_model(object):
     def load_data(self,category=None):
         print ('load and test: shapes for train and test X and Y')
         #last item [-1] is the geocode index only used when have embbeding layer
-        self.X_train = np.load('train_set/X_train_'+CITY+'.npy')[:,0:-1]
+        self.X_train = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/X_train_'+CITY+'.npy')[:,0:-1]
             
-        self.y_train = np.load('train_set/y_train_'+CITY+'.npy')
+        self.y_train = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/y_train_'+CITY+'.npy')
             
-        self.X_test = np.load('train_set/X_test_'+CITY+'.npy')[:,0:-1]
+        self.X_test = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/X_test_'+CITY+'.npy')[:,0:-1]
             
-        self.y_test = np.load('train_set/y_test_'+CITY+'.npy')
+        self.y_test = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/y_test_'+CITY+'.npy')
                     
             
         if category!=None:
