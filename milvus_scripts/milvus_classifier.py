@@ -16,7 +16,7 @@ def evaluate(city, db, collection_name, search_params, k):
     y_true = Y.astype(int).tolist()
 
     # Create filter
-    filter_string = f'"state == \"{city}\""'
+    filter_string='state == "[city]"'.replace('[city]',city)
     start_time = time.time()
     # Perform batch search
     results = client.search(
