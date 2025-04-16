@@ -185,7 +185,7 @@ writer.close()
 
 for m in models:
     for c in categories: # when using None as a category, it will use the entire set of input features
-        print '\n', m, c
+        # print '\n', m, c
         No_Acc   = []
         Acc      = []        
         Macro    = []
