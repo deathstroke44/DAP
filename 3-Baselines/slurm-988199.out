@@ -1,0 +1,1157 @@
+load and test: shapes for train and test X and Y
+(21102, 314)
+(21102,)
+(4385, 314)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+Grid scores on development set:
+
+0.839 (+/-0.003) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.838 (+/-0.004) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.839 (+/-0.003) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.840 (+/-0.003) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.839 (+/-0.003) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.840 (+/-0.003) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.839 (+/-0.003) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.840 (+/-0.003) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.840 (+/-0.004) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.840 (+/-0.004) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.840 (+/-0.004) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.841 (+/-0.005) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.840 (+/-0.004) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.841 (+/-0.005) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.840 (+/-0.004) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.841 (+/-0.005) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.87      0.95      0.91      3446
+           1       0.71      0.47      0.56       939
+
+   micro avg       0.85      0.85      0.85      4385
+   macro avg       0.79      0.71      0.73      4385
+weighted avg       0.83      0.85      0.83      4385
+
+load and test: shapes for train and test X and Y
+(21102, 314)
+(21102,)
+(4385, 314)
+(4385,)
+Best parameters set found on development set:
+
+{'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+Grid scores on development set:
+
+0.839 (+/-0.003) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.838 (+/-0.004) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.839 (+/-0.003) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.840 (+/-0.003) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.839 (+/-0.003) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.840 (+/-0.003) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.839 (+/-0.003) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.840 (+/-0.003) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.840 (+/-0.004) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.840 (+/-0.004) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.840 (+/-0.004) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.841 (+/-0.005) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.840 (+/-0.004) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.841 (+/-0.005) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.840 (+/-0.004) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.841 (+/-0.005) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.87      0.95      0.91      3446
+           1       0.71      0.47      0.56       939
+
+   micro avg       0.85      0.85      0.85      4385
+   macro avg       0.79      0.71      0.73      4385
+weighted avg       0.83      0.85      0.83      4385
+
+load and test: shapes for train and test X and Y
+(21102, 314)
+(21102,)
+(4385, 314)
+(4385,)
+Best parameters set found on development set:
+
+{'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+Grid scores on development set:
+
+0.839 (+/-0.003) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.838 (+/-0.004) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.839 (+/-0.003) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.840 (+/-0.003) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.839 (+/-0.003) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.840 (+/-0.003) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.839 (+/-0.003) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.840 (+/-0.003) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.839 (+/-0.003) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.840 (+/-0.004) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.840 (+/-0.004) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.840 (+/-0.004) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.841 (+/-0.005) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.840 (+/-0.004) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.841 (+/-0.005) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.840 (+/-0.004) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.841 (+/-0.005) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.87      0.95      0.91      3446
+           1       0.71      0.47      0.56       939
+
+   micro avg       0.85      0.85      0.85      4385
+   macro avg       0.79      0.71      0.73      4385
+weighted avg       0.83      0.85      0.83      4385
+
+load and test: shapes for train and test X and Y
+(21102, 64)
+(21102,)
+(4385, 64)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+Grid scores on development set:
+
+0.767 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.767 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.767 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.767 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.769 (+/-0.007) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.769 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.769 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.769 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.83      0.97      0.89      3446
+           1       0.70      0.25      0.37       939
+
+   micro avg       0.82      0.82      0.82      4385
+   macro avg       0.76      0.61      0.63      4385
+weighted avg       0.80      0.82      0.78      4385
+
+load and test: shapes for train and test X and Y
+(21102, 64)
+(21102,)
+(4385, 64)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+Grid scores on development set:
+
+0.767 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.767 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.767 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.767 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.769 (+/-0.007) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.769 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.769 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.769 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.83      0.97      0.89      3446
+           1       0.70      0.25      0.37       939
+
+   micro avg       0.82      0.82      0.82      4385
+   macro avg       0.76      0.61      0.63      4385
+weighted avg       0.80      0.82      0.78      4385
+
+load and test: shapes for train and test X and Y
+(21102, 64)
+(21102,)
+(4385, 64)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+Grid scores on development set:
+
+0.767 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.767 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.767 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.767 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.767 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.767 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.769 (+/-0.007) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.769 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.769 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.769 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.769 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.83      0.97      0.89      3446
+           1       0.70      0.25      0.37       939
+
+   micro avg       0.82      0.82      0.82      4385
+   macro avg       0.76      0.61      0.63      4385
+weighted avg       0.80      0.82      0.78      4385
+
+load and test: shapes for train and test X and Y
+(21102, 56)
+(21102,)
+(4385, 56)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+Grid scores on development set:
+
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.79      0.99      0.88      3446
+           1       0.55      0.04      0.07       939
+
+   micro avg       0.79      0.79      0.79      4385
+   macro avg       0.67      0.51      0.47      4385
+weighted avg       0.74      0.79      0.71      4385
+
+load and test: shapes for train and test X and Y
+(21102, 56)
+(21102,)
+(4385, 56)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/numpy_pickle.py:104: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+Grid scores on development set:
+
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.79      0.99      0.88      3446
+           1       0.55      0.04      0.07       939
+
+   micro avg       0.79      0.79      0.79      4385
+   macro avg       0.67      0.51      0.47      4385
+weighted avg       0.74      0.79      0.71      4385
+
+load and test: shapes for train and test X and Y
+(21102, 56)
+(21102,)
+(4385, 56)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/numpy_pickle.py:104: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+Grid scores on development set:
+
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.722 (+/-0.007) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.722 (+/-0.007) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.722 (+/-0.007) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.722 (+/-0.007) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.719 (+/-0.010) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.79      0.99      0.88      3446
+           1       0.55      0.04      0.07       939
+
+   micro avg       0.79      0.79      0.79      4385
+   macro avg       0.67      0.51      0.47      4385
+weighted avg       0.74      0.79      0.71      4385
+
+load and test: shapes for train and test X and Y
+(21102, 80)
+(21102,)
+(4385, 80)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/numpy_pickle.py:104: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+Grid scores on development set:
+
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.006) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.006) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.006) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.005) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.706 (+/-0.005) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.005) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.706 (+/-0.005) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.005) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.706 (+/-0.005) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.005) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.79      1.00      0.88      3446
+           1       0.13      0.00      0.00       939
+
+   micro avg       0.78      0.78      0.78      4385
+   macro avg       0.46      0.50      0.44      4385
+weighted avg       0.65      0.78      0.69      4385
+
+load and test: shapes for train and test X and Y
+(21102, 80)
+(21102,)
+(4385, 80)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+Grid scores on development set:
+
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.006) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.006) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.006) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.005) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.706 (+/-0.005) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.005) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.706 (+/-0.005) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.005) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.706 (+/-0.005) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.005) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.79      1.00      0.88      3446
+           1       0.13      0.00      0.00       939
+
+   micro avg       0.78      0.78      0.78      4385
+   macro avg       0.46      0.50      0.44      4385
+weighted avg       0.65      0.78      0.69      4385
+
+load and test: shapes for train and test X and Y
+(21102, 80)
+(21102,)
+(4385, 80)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+Grid scores on development set:
+
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.006) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.006) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.006) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.706 (+/-0.006) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.706 (+/-0.006) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.706 (+/-0.005) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.006) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.706 (+/-0.005) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.005) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.706 (+/-0.005) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.005) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.706 (+/-0.005) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.706 (+/-0.005) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.79      1.00      0.88      3446
+           1       0.13      0.00      0.00       939
+
+   micro avg       0.78      0.78      0.78      4385
+   macro avg       0.46      0.50      0.44      4385
+weighted avg       0.65      0.78      0.69      4385
+
+load and test: shapes for train and test X and Y
+(21102, 14)
+(21102,)
+(4385, 14)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+Grid scores on development set:
+
+0.763 (+/-0.015) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.763 (+/-0.015) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.763 (+/-0.015) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.763 (+/-0.015) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.761 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.761 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.761 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.761 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.82      0.97      0.89      3446
+           1       0.64      0.20      0.30       939
+
+   micro avg       0.80      0.80      0.80      4385
+   macro avg       0.73      0.58      0.60      4385
+weighted avg       0.78      0.80      0.76      4385
+
+load and test: shapes for train and test X and Y
+(21102, 14)
+(21102,)
+(4385, 14)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/numpy_pickle.py:104: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+Grid scores on development set:
+
+0.763 (+/-0.015) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.763 (+/-0.015) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.763 (+/-0.015) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.763 (+/-0.015) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.761 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.761 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.761 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.761 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.82      0.97      0.89      3446
+           1       0.64      0.20      0.30       939
+
+   micro avg       0.80      0.80      0.80      4385
+   macro avg       0.73      0.58      0.60      4385
+weighted avg       0.78      0.80      0.76      4385
+
+load and test: shapes for train and test X and Y
+(21102, 14)
+(21102,)
+(4385, 14)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/numpy_pickle.py:104: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+Grid scores on development set:
+
+0.763 (+/-0.015) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.763 (+/-0.015) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.763 (+/-0.015) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.763 (+/-0.015) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.763 (+/-0.015) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.763 (+/-0.015) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.761 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.761 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.761 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.761 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.761 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.82      0.97      0.89      3446
+           1       0.64      0.20      0.30       939
+
+   micro avg       0.80      0.80      0.80      4385
+   macro avg       0.73      0.58      0.60      4385
+weighted avg       0.78      0.80      0.76      4385
+
+load and test: shapes for train and test X and Y
+(21102, 100)
+(21102,)
+(4385, 100)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/numpy_pickle.py:104: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+  pickler.file_handle.write(chunk.tostring('C'))
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+Grid scores on development set:
+
+0.785 (+/-0.012) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.784 (+/-0.012) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.83      0.96      0.89      3446
+           1       0.63      0.26      0.37       939
+
+   micro avg       0.81      0.81      0.81      4385
+   macro avg       0.73      0.61      0.63      4385
+weighted avg       0.79      0.81      0.78      4385
+
+load and test: shapes for train and test X and Y
+(21102, 100)
+(21102,)
+(4385, 100)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+Grid scores on development set:
+
+0.785 (+/-0.012) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.784 (+/-0.012) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.83      0.96      0.89      3446
+           1       0.63      0.26      0.37       939
+
+   micro avg       0.81      0.81      0.81      4385
+   macro avg       0.73      0.61      0.63      4385
+weighted avg       0.79      0.81      0.78      4385
+
+load and test: shapes for train and test X and Y
+(21102, 100)
+(21102,)
+(4385, 100)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+Best parameters set found on development set:
+
+{'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+Grid scores on development set:
+
+0.785 (+/-0.012) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.784 (+/-0.012) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 100, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'newton-cg'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'lbfgs'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 10, 'penalty': 'l2', 'solver': 'sag'}
+0.785 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 100, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.785 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 1000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.785 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 10000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+0.785 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'liblinear'}
+0.788 (+/-0.012) for {'max_iter': 100000, 'n_jobs': 1, 'penalty': 'l1', 'solver': 'saga'}
+              precision    recall  f1-score   support
+
+           0       0.83      0.96      0.89      3446
+           1       0.63      0.26      0.37       939
+
+   micro avg       0.81      0.81      0.81      4385
+   macro avg       0.73      0.61      0.63      4385
+weighted avg       0.79      0.81      0.78      4385
+
+load and test: shapes for train and test X and Y
+(21102, 314)
+(21102,)
+(4385, 314)
+(4385,)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:757: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/loky/process_executor.py:700: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py:47: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/sklearn/linear_model/sag.py:334: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/var/spool/slurmd/job988199/slurm_script: line 6: 2466303 Killed                  python Traditional_Models_Sklearn.py --city Charlotte
+slurmstepd: error: Detected 1 oom_kill event in StepId=988199.batch. Some of the step tasks have been OOM Killed.

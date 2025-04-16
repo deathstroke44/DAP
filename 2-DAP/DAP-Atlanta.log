@@ -1,0 +1,568 @@
+Using TensorFlow backend.
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From /users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/tensorflow/python/ops/math_grad.py:1250: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2025-04-16 02:06:24.540084: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2025-04-16 02:06:24.704459: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2000000000 Hz
+2025-04-16 02:06:24.704785: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55702d0d1650 executing computations on platform Host. Devices:
+2025-04-16 02:06:24.704823: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2025-04-16 02:06:25.083335: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From /users/PAS2671/kabir36/.conda/envs/ns_project_2/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+******************** DAP ********************
+**********  round  0
+load and test: shapes for train and test, X/Y
+(12085, 315)
+(12085, 2)
+(2515, 315)
+(2515, 2)
+(12085, 8, 25)
+(12085, 14)
+(12085, 100)
+(12085,)
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+geo_code (InputLayer)           (None, 1)            0                                            
+__________________________________________________________________________________________________
+main_input (InputLayer)         (None, 8, 25)        0                                            
+__________________________________________________________________________________________________
+embedding_1 (Embedding)         (None, 1, 128)       119680      geo_code[0][0]                   
+__________________________________________________________________________________________________
+lstm_1 (LSTM)                   (None, 8, 128)       78848       main_input[0][0]                 
+__________________________________________________________________________________________________
+geohash_input (InputLayer)      (None, 14)           0                                            
+__________________________________________________________________________________________________
+nlp_input (InputLayer)          (None, 100)          0                                            
+__________________________________________________________________________________________________
+flatten_1 (Flatten)             (None, 128)          0           embedding_1[0][0]                
+__________________________________________________________________________________________________
+lstm_2 (LSTM)                   (None, 128)          131584      lstm_1[0][0]                     
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 128)          1920        geohash_input[0][0]              
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 128)          12928       nlp_input[0][0]                  
+__________________________________________________________________________________________________
+dense_3 (Dense)                 (None, 128)          16512       flatten_1[0][0]                  
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 512)          0           lstm_2[0][0]                     
+                                                                 dense_1[0][0]                    
+                                                                 dense_2[0][0]                    
+                                                                 dense_3[0][0]                    
+__________________________________________________________________________________________________
+dense_4 (Dense)                 (None, 512)          262656      concatenate_1[0][0]              
+__________________________________________________________________________________________________
+dense_5 (Dense)                 (None, 256)          131328      dense_4[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_1 (BatchNor (None, 256)          1024        dense_5[0][0]                    
+__________________________________________________________________________________________________
+activation_1 (Activation)       (None, 256)          0           batch_normalization_1[0][0]      
+__________________________________________________________________________________________________
+dropout_1 (Dropout)             (None, 256)          0           activation_1[0][0]               
+__________________________________________________________________________________________________
+dense_6 (Dense)                 (None, 64)           16448       dropout_1[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_2 (BatchNor (None, 64)           256         dense_6[0][0]                    
+__________________________________________________________________________________________________
+activation_2 (Activation)       (None, 64)           0           batch_normalization_2[0][0]      
+__________________________________________________________________________________________________
+dense_7 (Dense)                 (None, 2)            130         activation_2[0][0]               
+==================================================================================================
+Total params: 773,314
+Trainable params: 772,674
+Non-trainable params: 640
+__________________________________________________________________________________________________
+None
+tracking <tf.Variable 'Variable:0' shape=() dtype=int32> tp
+tracking <tf.Variable 'Variable_1:0' shape=() dtype=int32> fp
+tracking <tf.Variable 'Variable_2:0' shape=() dtype=int32> tp
+tracking <tf.Variable 'Variable_3:0' shape=() dtype=int32> fn
+Train on 9668 samples, validate on 2417 samples
+Epoch 1/60
+ - 3s - loss: 0.3833 - f1_score: 0.4100 - val_loss: 1.3302 - val_f1_score: 0.0000e+00
+Epoch 2/60
+ - 1s - loss: 0.3192 - f1_score: 0.5309 - val_loss: 0.4258 - val_f1_score: 0.5121
+Epoch 3/60
+ - 1s - loss: 0.3080 - f1_score: 0.5873 - val_loss: 0.3763 - val_f1_score: 0.5211
+Epoch 4/60
+ - 1s - loss: 0.3104 - f1_score: 0.5495 - val_loss: 0.3602 - val_f1_score: 0.4797
+Epoch 5/60
+ - 1s - loss: 0.3039 - f1_score: 0.5542 - val_loss: 0.3498 - val_f1_score: 0.3148
+Epoch 6/60
+ - 1s - loss: 0.3031 - f1_score: 0.5706 - val_loss: 0.3535 - val_f1_score: 0.4599
+Epoch 7/60
+ - 1s - loss: 0.3012 - f1_score: 0.5953 - val_loss: 0.3697 - val_f1_score: 0.5076
+Epoch 8/60
+ - 1s - loss: 0.2984 - f1_score: 0.5956 - val_loss: 0.3570 - val_f1_score: 0.1979
+Epoch 9/60
+ - 1s - loss: 0.2977 - f1_score: 0.6002 - val_loss: 0.4348 - val_f1_score: 0.2677
+Epoch 10/60
+ - 1s - loss: 0.3001 - f1_score: 0.6021 - val_loss: 0.4255 - val_f1_score: 0.5138
+Epoch 11/60
+ - 1s - loss: 0.2988 - f1_score: 0.6195 - val_loss: 0.3538 - val_f1_score: 0.4709
+Epoch 12/60
+ - 1s - loss: 0.2957 - f1_score: 0.6041 - val_loss: 0.3935 - val_f1_score: 0.3968
+Epoch 13/60
+ - 1s - loss: 0.2941 - f1_score: 0.6195 - val_loss: 0.3683 - val_f1_score: 0.3447
+Epoch 14/60
+ - 1s - loss: 0.2968 - f1_score: 0.6054 - val_loss: 0.3844 - val_f1_score: 0.4855
+Epoch 15/60
+ - 1s - loss: 0.2932 - f1_score: 0.6217 - val_loss: 0.3497 - val_f1_score: 0.4783
+Epoch 16/60
+ - 1s - loss: 0.2941 - f1_score: 0.6098 - val_loss: 0.3843 - val_f1_score: 0.5372
+Epoch 17/60
+ - 1s - loss: 0.2958 - f1_score: 0.5761 - val_loss: 0.3582 - val_f1_score: 0.5232
+Epoch 18/60
+ - 1s - loss: 0.2920 - f1_score: 0.5988 - val_loss: 0.3700 - val_f1_score: 0.1235
+Epoch 19/60
+ - 1s - loss: 0.2959 - f1_score: 0.5837 - val_loss: 0.3634 - val_f1_score: 0.5394
+Epoch 20/60
+ - 1s - loss: 0.2926 - f1_score: 0.5920 - val_loss: 0.3536 - val_f1_score: 0.3038
+Epoch 21/60
+ - 1s - loss: 0.2905 - f1_score: 0.5960 - val_loss: 0.3561 - val_f1_score: 0.5245
+Epoch 22/60
+ - 1s - loss: 0.2917 - f1_score: 0.6069 - val_loss: 0.3514 - val_f1_score: 0.4034
+Epoch 23/60
+ - 1s - loss: 0.2918 - f1_score: 0.6239 - val_loss: 0.3451 - val_f1_score: 0.5243
+Epoch 24/60
+ - 1s - loss: 0.2904 - f1_score: 0.5899 - val_loss: 0.3700 - val_f1_score: 0.4795
+Epoch 25/60
+ - 1s - loss: 0.2920 - f1_score: 0.5961 - val_loss: 0.3416 - val_f1_score: 0.5135
+Epoch 26/60
+ - 1s - loss: 0.2909 - f1_score: 0.5981 - val_loss: 0.3583 - val_f1_score: 0.3229
+Epoch 27/60
+ - 1s - loss: 0.2941 - f1_score: 0.5881 - val_loss: 0.3670 - val_f1_score: 0.5466
+Epoch 28/60
+ - 1s - loss: 0.2893 - f1_score: 0.6152 - val_loss: 0.3474 - val_f1_score: 0.4561
+Epoch 29/60
+ - 1s - loss: 0.2882 - f1_score: 0.6304 - val_loss: 0.3421 - val_f1_score: 0.5346
+Epoch 30/60
+ - 1s - loss: 0.2887 - f1_score: 0.6137 - val_loss: 0.3503 - val_f1_score: 0.4455
+Epoch 31/60
+ - 1s - loss: 0.2885 - f1_score: 0.6074 - val_loss: 0.3503 - val_f1_score: 0.5243
+Epoch 32/60
+ - 1s - loss: 0.2887 - f1_score: 0.6307 - val_loss: 0.3450 - val_f1_score: 0.5248
+Epoch 33/60
+ - 1s - loss: 0.2889 - f1_score: 0.6053 - val_loss: 0.3421 - val_f1_score: 0.4840
+Epoch 34/60
+ - 1s - loss: 0.2898 - f1_score: 0.6156 - val_loss: 0.3388 - val_f1_score: 0.5123
+Epoch 35/60
+ - 1s - loss: 0.2869 - f1_score: 0.6248 - val_loss: 0.3829 - val_f1_score: 0.5359
+Epoch 36/60
+ - 1s - loss: 0.2839 - f1_score: 0.6244 - val_loss: 0.3600 - val_f1_score: 0.5476
+Epoch 37/60
+ - 1s - loss: 0.2872 - f1_score: 0.6244 - val_loss: 0.3400 - val_f1_score: 0.4857
+Epoch 38/60
+ - 1s - loss: 0.2884 - f1_score: 0.5993 - val_loss: 0.3496 - val_f1_score: 0.5432
+Epoch 39/60
+ - 1s - loss: 0.2862 - f1_score: 0.5941 - val_loss: 0.3497 - val_f1_score: 0.5546
+Epoch 40/60
+ - 1s - loss: 0.2868 - f1_score: 0.6277 - val_loss: 0.3388 - val_f1_score: 0.5084
+Epoch 41/60
+ - 1s - loss: 0.2852 - f1_score: 0.6040 - val_loss: 0.3510 - val_f1_score: 0.5388
+Epoch 42/60
+ - 1s - loss: 0.2862 - f1_score: 0.6201 - val_loss: 0.3693 - val_f1_score: 0.3839
+Epoch 43/60
+ - 1s - loss: 0.2855 - f1_score: 0.6078 - val_loss: 0.3462 - val_f1_score: 0.5251
+Epoch 44/60
+ - 1s - loss: 0.2856 - f1_score: 0.5949 - val_loss: 0.3423 - val_f1_score: 0.5102
+Epoch 45/60
+ - 1s - loss: 0.2840 - f1_score: 0.6391 - val_loss: 0.3630 - val_f1_score: 0.4349
+Epoch 46/60
+ - 1s - loss: 0.2837 - f1_score: 0.6104 - val_loss: 0.3540 - val_f1_score: 0.5002
+Epoch 47/60
+ - 1s - loss: 0.2853 - f1_score: 0.6204 - val_loss: 0.3441 - val_f1_score: 0.4215
+Epoch 48/60
+ - 1s - loss: 0.2842 - f1_score: 0.6076 - val_loss: 0.3420 - val_f1_score: 0.5276
+Epoch 49/60
+ - 1s - loss: 0.2849 - f1_score: 0.6077 - val_loss: 0.3774 - val_f1_score: 0.5622
+Epoch 50/60
+ - 1s - loss: 0.2865 - f1_score: 0.6271 - val_loss: 0.3412 - val_f1_score: 0.3998
+Epoch 51/60
+ - 1s - loss: 0.2824 - f1_score: 0.6062 - val_loss: 0.3615 - val_f1_score: 0.5371
+Epoch 52/60
+ - 1s - loss: 0.2826 - f1_score: 0.6041 - val_loss: 0.3418 - val_f1_score: 0.5154
+Epoch 53/60
+ - 1s - loss: 0.2813 - f1_score: 0.6037 - val_loss: 0.3449 - val_f1_score: 0.5355
+Epoch 54/60
+ - 1s - loss: 0.2832 - f1_score: 0.5844 - val_loss: 0.3529 - val_f1_score: 0.5295
+Epoch 55/60
+ - 1s - loss: 0.2830 - f1_score: 0.6176 - val_loss: 0.3499 - val_f1_score: 0.5302
+Epoch 56/60
+ - 1s - loss: 0.2813 - f1_score: 0.6156 - val_loss: 0.3492 - val_f1_score: 0.5375
+Epoch 57/60
+ - 1s - loss: 0.2807 - f1_score: 0.6100 - val_loss: 0.3495 - val_f1_score: 0.5044
+Epoch 58/60
+ - 1s - loss: 0.2791 - f1_score: 0.6135 - val_loss: 0.3446 - val_f1_score: 0.4777
+Epoch 59/60
+ - 1s - loss: 0.2790 - f1_score: 0.6017 - val_loss: 0.3487 - val_f1_score: 0.5281
+Epoch 60/60
+ - 1s - loss: 0.2785 - f1_score: 0.6131 - val_loss: 0.3572 - val_f1_score: 0.5306
+                     0           1    micro avg    macro avg  weighted avg
+index                                                                     
+precision     0.883610    0.697561     0.853280     0.790586      0.844329
+recall        0.937500    0.538606     0.853280     0.738053      0.853280
+f1-score      0.909758    0.607864     0.853280     0.758811      0.846018
+support    1984.000000  531.000000  2515.000000  2515.000000   2515.000000
+auc           0.889160    0.889160     0.932958     0.889600           NaN
+******************** DAP ********************
+**********  round  1
+load and test: shapes for train and test, X/Y
+(12085, 315)
+(12085, 2)
+(2515, 315)
+(2515, 2)
+(12085, 8, 25)
+(12085, 14)
+(12085, 100)
+(12085,)
+Model: "model_2"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+geo_code (InputLayer)           (None, 1)            0                                            
+__________________________________________________________________________________________________
+main_input (InputLayer)         (None, 8, 25)        0                                            
+__________________________________________________________________________________________________
+embedding_2 (Embedding)         (None, 1, 128)       119680      geo_code[0][0]                   
+__________________________________________________________________________________________________
+lstm_3 (LSTM)                   (None, 8, 128)       78848       main_input[0][0]                 
+__________________________________________________________________________________________________
+geohash_input (InputLayer)      (None, 14)           0                                            
+__________________________________________________________________________________________________
+nlp_input (InputLayer)          (None, 100)          0                                            
+__________________________________________________________________________________________________
+flatten_2 (Flatten)             (None, 128)          0           embedding_2[0][0]                
+__________________________________________________________________________________________________
+lstm_4 (LSTM)                   (None, 128)          131584      lstm_3[0][0]                     
+__________________________________________________________________________________________________
+dense_8 (Dense)                 (None, 128)          1920        geohash_input[0][0]              
+__________________________________________________________________________________________________
+dense_9 (Dense)                 (None, 128)          12928       nlp_input[0][0]                  
+__________________________________________________________________________________________________
+dense_10 (Dense)                (None, 128)          16512       flatten_2[0][0]                  
+__________________________________________________________________________________________________
+concatenate_2 (Concatenate)     (None, 512)          0           lstm_4[0][0]                     
+                                                                 dense_8[0][0]                    
+                                                                 dense_9[0][0]                    
+                                                                 dense_10[0][0]                   
+__________________________________________________________________________________________________
+dense_11 (Dense)                (None, 512)          262656      concatenate_2[0][0]              
+__________________________________________________________________________________________________
+dense_12 (Dense)                (None, 256)          131328      dense_11[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_3 (BatchNor (None, 256)          1024        dense_12[0][0]                   
+__________________________________________________________________________________________________
+activation_3 (Activation)       (None, 256)          0           batch_normalization_3[0][0]      
+__________________________________________________________________________________________________
+dropout_2 (Dropout)             (None, 256)          0           activation_3[0][0]               
+__________________________________________________________________________________________________
+dense_13 (Dense)                (None, 64)           16448       dropout_2[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_4 (BatchNor (None, 64)           256         dense_13[0][0]                   
+__________________________________________________________________________________________________
+activation_4 (Activation)       (None, 64)           0           batch_normalization_4[0][0]      
+__________________________________________________________________________________________________
+dense_14 (Dense)                (None, 2)            130         activation_4[0][0]               
+==================================================================================================
+Total params: 773,314
+Trainable params: 772,674
+Non-trainable params: 640
+__________________________________________________________________________________________________
+None
+tracking <tf.Variable 'Variable_5:0' shape=() dtype=int32> tp
+tracking <tf.Variable 'Variable_6:0' shape=() dtype=int32> fp
+tracking <tf.Variable 'Variable_7:0' shape=() dtype=int32> tp
+tracking <tf.Variable 'Variable_8:0' shape=() dtype=int32> fn
+Train on 9668 samples, validate on 2417 samples
+Epoch 1/60
+ - 3s - loss: 0.3853 - f1_score: 0.4112 - val_loss: 2.4274 - val_f1_score: 0.0000e+00
+Epoch 2/60
+ - 1s - loss: 0.3154 - f1_score: 0.5771 - val_loss: 1.5032 - val_f1_score: 0.0000e+00
+Epoch 3/60
+ - 1s - loss: 0.3067 - f1_score: 0.5895 - val_loss: 1.6121 - val_f1_score: 0.0000e+00
+Epoch 4/60
+ - 1s - loss: 0.3093 - f1_score: 0.5634 - val_loss: 0.3766 - val_f1_score: 0.0991
+Epoch 5/60
+ - 1s - loss: 0.3051 - f1_score: 0.5726 - val_loss: 0.7771 - val_f1_score: 0.4826
+Epoch 6/60
+ - 1s - loss: 0.3008 - f1_score: 0.6021 - val_loss: 0.5260 - val_f1_score: 0.5196
+Epoch 7/60
+ - 1s - loss: 0.3012 - f1_score: 0.6002 - val_loss: 0.5132 - val_f1_score: 0.5133
+Epoch 8/60
+ - 1s - loss: 0.3007 - f1_score: 0.6085 - val_loss: 0.4525 - val_f1_score: 0.2347
+Epoch 9/60
+ - 1s - loss: 0.2994 - f1_score: 0.5756 - val_loss: 0.3909 - val_f1_score: 0.5201
+Epoch 10/60
+ - 1s - loss: 0.2948 - f1_score: 0.6021 - val_loss: 0.3756 - val_f1_score: 0.5470
+Epoch 11/60
+ - 1s - loss: 0.2993 - f1_score: 0.5897 - val_loss: 0.4436 - val_f1_score: 0.5233
+Epoch 12/60
+ - 1s - loss: 0.2940 - f1_score: 0.6103 - val_loss: 0.3838 - val_f1_score: 0.4038
+Epoch 13/60
+ - 1s - loss: 0.2972 - f1_score: 0.5973 - val_loss: 0.5169 - val_f1_score: 0.5247
+Epoch 14/60
+ - 1s - loss: 0.2943 - f1_score: 0.6074 - val_loss: 0.3508 - val_f1_score: 0.5151
+Epoch 15/60
+ - 1s - loss: 0.2928 - f1_score: 0.5753 - val_loss: 0.3460 - val_f1_score: 0.4992
+Epoch 16/60
+ - 1s - loss: 0.2950 - f1_score: 0.5923 - val_loss: 0.3452 - val_f1_score: 0.5198
+Epoch 17/60
+ - 1s - loss: 0.2965 - f1_score: 0.6066 - val_loss: 0.3688 - val_f1_score: 0.5414
+Epoch 18/60
+ - 1s - loss: 0.2928 - f1_score: 0.6125 - val_loss: 0.3591 - val_f1_score: 0.4352
+Epoch 19/60
+ - 1s - loss: 0.2912 - f1_score: 0.6328 - val_loss: 0.3980 - val_f1_score: 0.5529
+Epoch 20/60
+ - 1s - loss: 0.2891 - f1_score: 0.6002 - val_loss: 0.3464 - val_f1_score: 0.4263
+Epoch 21/60
+ - 1s - loss: 0.2933 - f1_score: 0.5713 - val_loss: 0.3830 - val_f1_score: 0.5372
+Epoch 22/60
+ - 1s - loss: 0.2907 - f1_score: 0.6037 - val_loss: 0.3572 - val_f1_score: 0.3229
+Epoch 23/60
+ - 1s - loss: 0.2925 - f1_score: 0.6106 - val_loss: 0.3344 - val_f1_score: 0.4742
+Epoch 24/60
+ - 1s - loss: 0.2911 - f1_score: 0.5781 - val_loss: 0.4466 - val_f1_score: 0.4936
+Epoch 25/60
+ - 1s - loss: 0.2888 - f1_score: 0.6199 - val_loss: 0.3640 - val_f1_score: 0.3495
+Epoch 26/60
+ - 1s - loss: 0.2917 - f1_score: 0.6030 - val_loss: 0.3655 - val_f1_score: 0.4548
+Epoch 27/60
+ - 1s - loss: 0.2904 - f1_score: 0.6152 - val_loss: 0.4632 - val_f1_score: 0.5550
+Epoch 28/60
+ - 1s - loss: 0.2876 - f1_score: 0.6235 - val_loss: 0.3904 - val_f1_score: 0.5368
+Epoch 29/60
+ - 1s - loss: 0.2910 - f1_score: 0.6166 - val_loss: 0.3298 - val_f1_score: 0.5191
+Epoch 30/60
+ - 1s - loss: 0.2886 - f1_score: 0.5825 - val_loss: 0.3580 - val_f1_score: 0.5180
+Epoch 31/60
+ - 1s - loss: 0.2883 - f1_score: 0.5995 - val_loss: 0.3498 - val_f1_score: 0.5277
+Epoch 32/60
+ - 1s - loss: 0.2910 - f1_score: 0.6042 - val_loss: 0.3584 - val_f1_score: 0.5426
+Epoch 33/60
+ - 1s - loss: 0.2851 - f1_score: 0.6192 - val_loss: 0.3795 - val_f1_score: 0.5403
+Epoch 34/60
+ - 1s - loss: 0.2873 - f1_score: 0.6383 - val_loss: 0.3394 - val_f1_score: 0.5182
+Epoch 35/60
+ - 1s - loss: 0.2871 - f1_score: 0.6205 - val_loss: 0.3583 - val_f1_score: 0.5452
+Epoch 36/60
+ - 1s - loss: 0.2874 - f1_score: 0.6124 - val_loss: 0.3458 - val_f1_score: 0.5353
+Epoch 37/60
+ - 1s - loss: 0.2859 - f1_score: 0.6183 - val_loss: 0.3418 - val_f1_score: 0.4860
+Epoch 38/60
+ - 1s - loss: 0.2860 - f1_score: 0.5893 - val_loss: 0.3420 - val_f1_score: 0.4976
+Epoch 39/60
+ - 1s - loss: 0.2838 - f1_score: 0.6133 - val_loss: 0.3437 - val_f1_score: 0.4968
+Epoch 40/60
+ - 1s - loss: 0.2844 - f1_score: 0.6212 - val_loss: 0.3602 - val_f1_score: 0.5575
+Epoch 41/60
+ - 1s - loss: 0.2856 - f1_score: 0.6192 - val_loss: 0.3535 - val_f1_score: 0.4359
+Epoch 42/60
+ - 1s - loss: 0.2870 - f1_score: 0.5982 - val_loss: 0.3465 - val_f1_score: 0.5391
+Epoch 43/60
+ - 1s - loss: 0.2849 - f1_score: 0.6111 - val_loss: 0.3379 - val_f1_score: 0.5391
+Epoch 44/60
+ - 1s - loss: 0.2860 - f1_score: 0.6176 - val_loss: 0.3685 - val_f1_score: 0.5557
+Epoch 45/60
+ - 1s - loss: 0.2839 - f1_score: 0.6102 - val_loss: 0.3441 - val_f1_score: 0.5123
+Epoch 46/60
+ - 1s - loss: 0.2829 - f1_score: 0.6286 - val_loss: 0.3386 - val_f1_score: 0.5318
+Epoch 47/60
+ - 1s - loss: 0.2816 - f1_score: 0.5958 - val_loss: 0.3428 - val_f1_score: 0.5216
+Epoch 48/60
+ - 1s - loss: 0.2841 - f1_score: 0.6122 - val_loss: 0.3420 - val_f1_score: 0.4821
+Epoch 49/60
+ - 1s - loss: 0.2826 - f1_score: 0.6404 - val_loss: 0.3459 - val_f1_score: 0.5514
+Epoch 50/60
+ - 1s - loss: 0.2829 - f1_score: 0.5912 - val_loss: 0.3601 - val_f1_score: 0.5576
+Epoch 51/60
+ - 1s - loss: 0.2855 - f1_score: 0.5962 - val_loss: 0.3617 - val_f1_score: 0.5391
+Epoch 52/60
+ - 1s - loss: 0.2822 - f1_score: 0.5903 - val_loss: 0.3516 - val_f1_score: 0.5442
+Epoch 53/60
+ - 1s - loss: 0.2805 - f1_score: 0.6113 - val_loss: 0.3433 - val_f1_score: 0.5135
+Epoch 54/60
+ - 1s - loss: 0.2816 - f1_score: 0.6296 - val_loss: 0.3449 - val_f1_score: 0.4300
+Epoch 55/60
+ - 1s - loss: 0.2804 - f1_score: 0.6183 - val_loss: 0.3500 - val_f1_score: 0.5315
+Epoch 56/60
+ - 1s - loss: 0.2825 - f1_score: 0.6269 - val_loss: 0.3432 - val_f1_score: 0.5408
+Epoch 57/60
+ - 1s - loss: 0.2830 - f1_score: 0.6048 - val_loss: 0.3687 - val_f1_score: 0.3470
+Epoch 58/60
+ - 1s - loss: 0.2816 - f1_score: 0.6226 - val_loss: 0.3426 - val_f1_score: 0.5361
+Epoch 59/60
+ - 1s - loss: 0.2771 - f1_score: 0.5967 - val_loss: 0.3432 - val_f1_score: 0.5119
+Epoch 60/60
+ - 1s - loss: 0.2771 - f1_score: 0.6215 - val_loss: 0.3424 - val_f1_score: 0.5104
+                     0           1    micro avg    macro avg  weighted avg
+index                                                                     
+precision     0.862852    0.731629     0.846521     0.797241      0.835147
+recall        0.957661    0.431262     0.846521     0.694462      0.846521
+f1-score      0.907788    0.542654     0.846521     0.725221      0.830696
+support    1984.000000  531.000000  2515.000000  2515.000000   2515.000000
+auc           0.885377    0.885377     0.929928     0.885812           NaN
+******************** DAP ********************
+**********  round  2
+load and test: shapes for train and test, X/Y
+(12085, 315)
+(12085, 2)
+(2515, 315)
+(2515, 2)
+(12085, 8, 25)
+(12085, 14)
+(12085, 100)
+(12085,)
+Model: "model_3"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+geo_code (InputLayer)           (None, 1)            0                                            
+__________________________________________________________________________________________________
+main_input (InputLayer)         (None, 8, 25)        0                                            
+__________________________________________________________________________________________________
+embedding_3 (Embedding)         (None, 1, 128)       119680      geo_code[0][0]                   
+__________________________________________________________________________________________________
+lstm_5 (LSTM)                   (None, 8, 128)       78848       main_input[0][0]                 
+__________________________________________________________________________________________________
+geohash_input (InputLayer)      (None, 14)           0                                            
+__________________________________________________________________________________________________
+nlp_input (InputLayer)          (None, 100)          0                                            
+__________________________________________________________________________________________________
+flatten_3 (Flatten)             (None, 128)          0           embedding_3[0][0]                
+__________________________________________________________________________________________________
+lstm_6 (LSTM)                   (None, 128)          131584      lstm_5[0][0]                     
+__________________________________________________________________________________________________
+dense_15 (Dense)                (None, 128)          1920        geohash_input[0][0]              
+__________________________________________________________________________________________________
+dense_16 (Dense)                (None, 128)          12928       nlp_input[0][0]                  
+__________________________________________________________________________________________________
+dense_17 (Dense)                (None, 128)          16512       flatten_3[0][0]                  
+__________________________________________________________________________________________________
+concatenate_3 (Concatenate)     (None, 512)          0           lstm_6[0][0]                     
+                                                                 dense_15[0][0]                   
+                                                                 dense_16[0][0]                   
+                                                                 dense_17[0][0]                   
+__________________________________________________________________________________________________
+dense_18 (Dense)                (None, 512)          262656      concatenate_3[0][0]              
+__________________________________________________________________________________________________
+dense_19 (Dense)                (None, 256)          131328      dense_18[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_5 (BatchNor (None, 256)          1024        dense_19[0][0]                   
+__________________________________________________________________________________________________
+activation_5 (Activation)       (None, 256)          0           batch_normalization_5[0][0]      
+__________________________________________________________________________________________________
+dropout_3 (Dropout)             (None, 256)          0           activation_5[0][0]               
+__________________________________________________________________________________________________
+dense_20 (Dense)                (None, 64)           16448       dropout_3[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_6 (BatchNor (None, 64)           256         dense_20[0][0]                   
+__________________________________________________________________________________________________
+activation_6 (Activation)       (None, 64)           0           batch_normalization_6[0][0]      
+__________________________________________________________________________________________________
+dense_21 (Dense)                (None, 2)            130         activation_6[0][0]               
+==================================================================================================
+Total params: 773,314
+Trainable params: 772,674
+Non-trainable params: 640
+__________________________________________________________________________________________________
+None
+tracking <tf.Variable 'Variable_10:0' shape=() dtype=int32> tp
+tracking <tf.Variable 'Variable_11:0' shape=() dtype=int32> fp
+tracking <tf.Variable 'Variable_12:0' shape=() dtype=int32> tp
+tracking <tf.Variable 'Variable_13:0' shape=() dtype=int32> fn
+Train on 9668 samples, validate on 2417 samples
+Epoch 1/60
+ - 3s - loss: 0.3587 - f1_score: 0.4417 - val_loss: 1.0113 - val_f1_score: 0.4633
+Epoch 2/60
+ - 1s - loss: 0.3155 - f1_score: 0.5641 - val_loss: 1.4054 - val_f1_score: 0.0000e+00
+Epoch 3/60
+ - 1s - loss: 0.3102 - f1_score: 0.5451 - val_loss: 0.5201 - val_f1_score: 0.4886
+Epoch 4/60
+ - 1s - loss: 0.3071 - f1_score: 0.5590 - val_loss: 0.4383 - val_f1_score: 0.5248
+Epoch 5/60
+ - 1s - loss: 0.3038 - f1_score: 0.5960 - val_loss: 0.3988 - val_f1_score: 0.5025
+Epoch 6/60
+ - 1s - loss: 0.3030 - f1_score: 0.6066 - val_loss: 0.3563 - val_f1_score: 0.5081
+Epoch 7/60
+ - 1s - loss: 0.2997 - f1_score: 0.5945 - val_loss: 0.4764 - val_f1_score: 0.0405
+Epoch 8/60
+ - 1s - loss: 0.2993 - f1_score: 0.6001 - val_loss: 0.4710 - val_f1_score: 0.5045
+Epoch 9/60
+ - 1s - loss: 0.2976 - f1_score: 0.5902 - val_loss: 0.3942 - val_f1_score: 0.0000e+00
+Epoch 10/60
+ - 1s - loss: 0.2991 - f1_score: 0.6122 - val_loss: 0.4355 - val_f1_score: 0.5264
+Epoch 11/60
+ - 1s - loss: 0.3016 - f1_score: 0.5877 - val_loss: 0.3592 - val_f1_score: 0.5173
+Epoch 12/60
+ - 1s - loss: 0.2996 - f1_score: 0.5765 - val_loss: 0.4105 - val_f1_score: 0.5417
+Epoch 13/60
+ - 1s - loss: 0.2956 - f1_score: 0.6024 - val_loss: 0.3784 - val_f1_score: 0.4555
+Epoch 14/60
+ - 1s - loss: 0.2988 - f1_score: 0.5976 - val_loss: 0.3417 - val_f1_score: 0.5351
+Epoch 15/60
+ - 1s - loss: 0.2947 - f1_score: 0.5901 - val_loss: 0.4162 - val_f1_score: 0.5438
+Epoch 16/60
+ - 1s - loss: 0.2930 - f1_score: 0.5916 - val_loss: 0.3817 - val_f1_score: 0.5442
+Epoch 17/60
+ - 1s - loss: 0.2947 - f1_score: 0.6264 - val_loss: 0.3618 - val_f1_score: 0.5311
+Epoch 18/60
+ - 1s - loss: 0.2922 - f1_score: 0.6019 - val_loss: 0.3458 - val_f1_score: 0.5126
+Epoch 19/60
+ - 1s - loss: 0.2905 - f1_score: 0.6165 - val_loss: 0.3445 - val_f1_score: 0.4860
+Epoch 20/60
+ - 1s - loss: 0.2921 - f1_score: 0.5830 - val_loss: 0.3432 - val_f1_score: 0.5141
+Epoch 21/60
+ - 1s - loss: 0.2947 - f1_score: 0.5943 - val_loss: 0.4086 - val_f1_score: 0.5387
+Epoch 22/60
+ - 1s - loss: 0.2933 - f1_score: 0.6042 - val_loss: 0.3595 - val_f1_score: 0.5318
+Epoch 23/60
+ - 1s - loss: 0.2914 - f1_score: 0.5937 - val_loss: 0.3566 - val_f1_score: 0.4870
+Epoch 24/60
+ - 1s - loss: 0.2900 - f1_score: 0.6041 - val_loss: 0.3482 - val_f1_score: 0.5257
+Epoch 25/60
+ - 1s - loss: 0.2905 - f1_score: 0.6212 - val_loss: 0.3450 - val_f1_score: 0.5276
+Epoch 26/60
+ - 1s - loss: 0.2908 - f1_score: 0.6325 - val_loss: 0.3436 - val_f1_score: 0.5337
+Epoch 27/60
+ - 1s - loss: 0.2900 - f1_score: 0.5962 - val_loss: 0.3454 - val_f1_score: 0.5332
+Epoch 28/60
+ - 1s - loss: 0.2884 - f1_score: 0.6093 - val_loss: 0.3408 - val_f1_score: 0.5253
+Epoch 29/60
+ - 1s - loss: 0.2893 - f1_score: 0.6140 - val_loss: 0.3776 - val_f1_score: 0.5344
+Epoch 30/60
+ - 1s - loss: 0.2912 - f1_score: 0.6286 - val_loss: 0.3462 - val_f1_score: 0.4781
+Epoch 31/60
+ - 1s - loss: 0.2877 - f1_score: 0.6071 - val_loss: 0.3431 - val_f1_score: 0.5140
+                     0           1    micro avg    macro avg  weighted avg
+index                                                                     
+precision     0.888564    0.656522     0.846123     0.772543      0.839573
+recall        0.920363    0.568738     0.846123     0.744551      0.846123
+f1-score      0.904184    0.609485     0.846123     0.756835      0.841963
+support    1984.000000  531.000000  2515.000000  2515.000000   2515.000000
+auc           0.881746    0.881746     0.920535     0.882195           NaN
