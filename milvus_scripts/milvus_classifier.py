@@ -53,23 +53,79 @@ def evaluate(city, db, collection_name, search_params, k):
     print(f"Execution time: {elapsed:.2f} seconds")
     return y_true, y_pred
 
-ef_values = [20, 40]
-k_values = [50, 100, 200]
-city = "Atlanta"
+ef_values = [20, 40, 60, 80, 100]
+k_values = [5,10,15,20,25,50, 75, 100, 150, 200]
 db = "milvus_us_accident_1.db"
 collection_name = "collection_1"
 
-results_summary = {}
 
-for ef in ef_values:
-    search_params = {"params": {"ef": ef}}
-    for k in k_values:
-        y_true, y_pred = evaluate(city, db, collection_name, search_params, k)
-        print(f"\n==== ef: {ef}, k: {k} ====")
-        print('Database:',db,",Collection:",collection_name)
-        print("Generating classification report")
-        print(classification_report(y_true, y_pred, digits=4))
-        
-        # Store report summary by accuracy
-        acc = np.mean(np.array(y_true) == np.array(y_pred))
-        print("Accuracy:", acc)
+
+cities = ['Atlanta', 'Austin', 'Charlotte', 'Dallas', 'Houston', 'LosAngeles']
+for city in cities:
+    for ef in ef_values:
+        search_params = {"params": {"ef": ef}}
+        for k in k_values:
+            y_true, y_pred = evaluate(city, db, collection_name, search_params, k)
+            print(f"\n==== ef: {ef}, k: {k} ====")
+            print('Database:',db,",Collection:",collection_name)
+            print("Generating classification report")
+            print(classification_report(y_true, y_pred, digits=4))
+            # Store report summary by accuracy
+            acc = np.mean(np.array(y_true) == np.array(y_pred))
+            print("Accuracy:", acc)
+            
+db = "milvus_us_accident_2.db"
+collection_name = "collection_2"
+
+
+
+cities = ['Atlanta', 'Austin', 'Charlotte', 'Dallas', 'Houston', 'LosAngeles']
+for city in cities:
+    for ef in ef_values:
+        search_params = {"params": {"ef": ef}}
+        for k in k_values:
+            y_true, y_pred = evaluate(city, db, collection_name, search_params, k)
+            print(f"\n==== ef: {ef}, k: {k} ====")
+            print('Database:',db,",Collection:",collection_name)
+            print("Generating classification report")
+            print(classification_report(y_true, y_pred, digits=4))
+            # Store report summary by accuracy
+            acc = np.mean(np.array(y_true) == np.array(y_pred))
+            print("Accuracy:", acc)
+            
+
+search_list_values = [20, 40, 60,80,100]
+         
+db = "milvus_us_accident_3.db"
+collection_name = "collection_3"
+
+cities = ['Atlanta', 'Austin', 'Charlotte', 'Dallas', 'Houston', 'LosAngeles']
+for city in cities:
+    for search_list in search_list_values:
+        search_params = {"params": {"search_list": search_list}}
+        for k in k_values:
+            y_true, y_pred = evaluate(city, db, collection_name, search_params, k)
+            print(f"\n==== ef: {ef}, k: {k} ====")
+            print('Database:',db,",Collection:",collection_name)
+            print("Generating classification report")
+            print(classification_report(y_true, y_pred, digits=4))
+            # Store report summary by accuracy
+            acc = np.mean(np.array(y_true) == np.array(y_pred))
+            print("Accuracy:", acc)
+         
+db = "milvus_us_accident_4.db"
+collection_name = "collection_4"
+
+cities = ['Atlanta', 'Austin', 'Charlotte', 'Dallas', 'Houston', 'LosAngeles']
+for city in cities:
+    for search_list in search_list_values:
+        search_params = {"params": {"search_list": search_list}}
+        for k in k_values:
+            y_true, y_pred = evaluate(city, db, collection_name, search_params, k)
+            print(f"\n==== ef: {ef}, k: {k} ====")
+            print('Database:',db,",Collection:",collection_name)
+            print("Generating classification report")
+            print(classification_report(y_true, y_pred, digits=4))
+            # Store report summary by accuracy
+            acc = np.mean(np.array(y_true) == np.array(y_pred))
+            print("Accuracy:", acc)
