@@ -78,10 +78,10 @@ class base_model(object):
         self.act=act
    
     def load_data(self,category=None,with_geocode=False):
-        self.X_train = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/X_train_'+self.CITY+'.npy')
-        self.y_train = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/y_train_'+self.CITY+'.npy')
-        self.X_test = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/X_test_'+self.CITY+'.npy')
-        self.y_test = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/y_test_'+self.CITY+'.npy')
+        self.X_train = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/X_train_'+self.CITY+'.npy', allow_pickle=True)
+        self.y_train = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/y_train_'+self.CITY+'.npy', allow_pickle=True)
+        self.X_test = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/X_test_'+self.CITY+'.npy', allow_pickle=True)
+        self.y_test = np.load('/users/PAS2671/kabir36/ns_project/DAP/data/train_set/y_test_'+self.CITY+'.npy', allow_pickle=True)
         
         if not with_geocode:
             self.X_train = self.X_train[:,0:-1]    
