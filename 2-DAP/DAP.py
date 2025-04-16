@@ -72,34 +72,76 @@ CONV_UNIT = 32
 weights = np.array([1,1])
 
 
-class DNN(keras_model):
+class DAP(keras_model):
+    
     def load_data(self):
-        super(DNN,self).load_data()
+        super(DAP,self).load_data(with_geocode=True)
+        
+        self.X_train1 = self.reshape(self.X_train[:,:-1])
+        self.X_test1 = self.reshape(self.X_test[:,:-1])
+        
+        self.X_train2 = reshape_cat(self.X_train[:,:-1],'geohash') # geohash indicates POI attributes 
+        self.X_train3 = reshape_cat(self.X_train[:,:-1],'NLP') # NLP indicates Desc2Vec attributes
+        
+        self.X_test2 = reshape_cat(self.X_test[:,:-1],'geohash')
+        self.X_test3 = reshape_cat(self.X_test[:,:-1],'NLP')
+        
+        self.X_train4 = self.X_train[:,-1]
+        self.X_test4 = self.X_test[:,-1]
+        
+        print (self.X_train1.shape)
+        print (self.X_train2.shape)
+        print (self.X_train3.shape)
+        print (self.X_train4.shape)
         
     def create_model(self):
-        input1 = Input(shape=(self.X_train.shape[1],),dtype='float32',name='main_input')
-        main_output = self.last_layers(input1)
         
-        self.model = Model(inputs=[input1], outputs=main_output)
+        input1 = Input(shape=(self.X_train1.shape[1], self.X_train1.shape[2]),dtype='float32', 
+                           name='main_input')
+        lstm = LSTM(units = LSTM_UNIT, return_sequences = True,
+                     kernel_regularizer=regularizers.l2(self.weight_decay),
+                     recurrent_regularizer = regularizers.l2(self.weight_decay),
+                     dropout=dropout,
+                     recurrent_dropout=dropout,
+                     unroll = True)(input1)
         
+        lstm = LSTM(units = LSTM_UNIT, return_sequences = False,
+                     kernel_regularizer=regularizers.l2(self.weight_decay),
+                     recurrent_regularizer = regularizers.l2(self.weight_decay),
+                     dropout=dropout,
+                     recurrent_dropout=dropout,
+                     unroll = True)(lstm)
+        ######################################
+        input2 = Input(shape=(self.X_train2.shape[1],), dtype='float32', name='geohash_input')
+        geohash_vec = Dense(GEOHASH_UNIT, activation=ACT_PRIOR)(input2)
+        ######################################
+        input3 = Input(shape=(self.X_train3.shape[1],), dtype='float32', name='nlp_input')
+        nlp_vec = Dense(NLP_UNIT, activation=ACT_PRIOR)(input3)
+        ######################################
+        input4 = Input(shape=(1,),dtype='int32',name='geo_code')
+        embeding = Embedding(input_dim=935, output_dim=Embedding_outdim, embeddings_initializer='uniform',input_length=1)(input4)
+        embeding = Flatten()(embeding)
+        embeding = Dense(EMBEDDING_UNIT, activation=ACT_PRIOR)(embeding)
+        ######################################
+        level_3 = concatenate([lstm,geohash_vec,nlp_vec,embeding])
         
-        #keras.layers.Dense(units, activation=None, use_bias=True, 
-        #kernel_initializer='glorot_uniform', bias_initializer='zeros', 
-        #kernel_regularizer=None, bias_regularizer=None, activity_regularizer=None, 
-        #kernel_constraint=None, bias_constraint=None)
+        main_output = self.last_layers(level_3)
+        
+        self.model = Model(inputs=[input1,input2,input3,input4], outputs=main_output)
+        
         print(self.model.summary())
         
     def train(self):
-        history = self.model.fit(self.X_train, self.y_train, batch_size=self.batch_size, 
+        history = self.model.fit([self.X_train1,self.X_train2,self.X_train3,self.X_train4], self.y_train, batch_size=self.batch_size, 
                                  epochs=self.epoch,verbose=verbose,validation_split=VAL_SPLIT, callbacks=[self.earlyStopping])        
     def evaluate(self):    
-        y_true, y_pred =  self.y_test, self.model.predict(self.X_test,verbose=verbose)
+        y_true, y_pred =  self.y_test, self.model.predict([self.X_test1,self.X_test2,self.X_test3,self.X_test4],verbose=verbose)
         return self.make_report(y_true, y_pred)
-    
-    
+        
+        
 def Train_Model(city='Atlanta'):
     def initialte_class():
-        mypred = DNN(city=city)
+        mypred = DAP(city=city)
         return mypred
     
     def do_rest(pred):
@@ -129,10 +171,8 @@ def Train_Model(city='Atlanta'):
         df = pd.concat(df_list)
         return pd.DataFrame(df.mean(),columns=[classname])
     
-    return rerun('DNN')
-
-
+    return rerun('DAP')
+        
 # cities = ['Atlanta', 'Austin', 'Charlotte', 'Dallas', 'Houston', 'LosAngeles']
 # for city in cities:
 #     result = Train_Model(city) #the output 'result' contains prediction evaluation metrics such as f1-score 
-        
