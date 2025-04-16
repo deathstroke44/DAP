@@ -11,8 +11,8 @@ def evaluate(city, db, collection_name, search_params, k):
     client = MilvusClient(db)
 
     # Load test data
-    X = np.load(f'X_test_{city}.npy', allow_pickle=True)
-    Y = np.load(f'y_test_{city}.npy', allow_pickle=True)
+    X = np.load(f'/users/PAS2671/kabir36/ns_project/DAP/data/train_set/X_test_{city}.npy', allow_pickle=True)
+    Y = np.load(f'/users/PAS2671/kabir36/ns_project/DAP/data/train_set/y_test_{city}.npy', allow_pickle=True)
     y_true = Y.astype(int).tolist()
 
     # Create filter
