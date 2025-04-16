@@ -25,7 +25,7 @@ def insert_data(dataset):
         cnt += 1
         batch_data.append({
             "id": cnt,
-            "embedding": x.tolist(),  # Ensure it's a list, not np.array
+            "vector": x.tolist(),  # Ensure it's a list, not np.array
             "state": state,
             "label": int(y)
         })
