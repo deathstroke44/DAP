@@ -3,7 +3,7 @@
 #SBATCH -A PAS2030
 #SBATCH --ntasks-per-node=6
 
-python insert_to_db_collection_1.py
+python Traditional_Models_Sklearn.py --city Atlanta
 
 
 
