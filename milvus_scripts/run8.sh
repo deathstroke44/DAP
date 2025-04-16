@@ -3,7 +3,7 @@
 #SBATCH -A PAS2030
 #SBATCH --ntasks-per-node=6
 
-milvus_classifier_prior_class_3.py &> run8.log
+python milvus_classifier_prior_class_3.py &> run8.log
 
 
 
