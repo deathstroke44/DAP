@@ -3,4 +3,7 @@
 #SBATCH -A PAS2030
 #SBATCH --ntasks-per-node=6
 
-python insert_to_db_collection_6.py &> insert_to_db_collection_6.log
+python insert_to_db_collection_7.py &> insert_to_db_collection_7.log
+
+
+
