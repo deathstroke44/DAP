@@ -17,7 +17,7 @@ index_params.add_index(
 if client.has_collection(collection_name="collection_6"):
     client.drop_collection(collection_name="collection_6")
 client.create_collection(
-    collection_name="collection_1",
+    collection_name="collection_6",
     index_params=index_params,
     dimension=315
 )
