@@ -31,7 +31,7 @@ def insert_data(dataset):
         })
 
     # Insert once per file
-    res = client.insert(collection_name="collection_6", data=batch_data)
+    res = client.insert(collection_name="collection_1", data=batch_data)
     print(f"Inserted {len(batch_data)} records from {dataset}")
     print(res)
 
@@ -43,6 +43,8 @@ for file in files:
         insert_data(file)
         
 elapsed = time.time() - start_time  # End timer
+
+import milvus_classifier_prior_class_6
 
 print(f"Execution time: {elapsed:.2f} seconds")
 

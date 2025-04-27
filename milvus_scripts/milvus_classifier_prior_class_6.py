@@ -70,7 +70,7 @@ def evaluate(city, db, collection_name, search_params, k):
 ef_values = [20, 40, 60, 80, 100]
 k_values = [5,10,15,20,25,50, 75, 100, 150, 200]
 db = "milvus_us_accident_6.db"
-collection_name = "collection_6"
+collection_name = "collection_1"
 
 
 
