@@ -74,9 +74,10 @@ def evaluate():
         filter='Atalanta'
     )
 
-        elapsed = time.time() - start_time  # End timer
+    elapsed = time.time() - start_time  # End timer
+    print(f"Search Execution time: {elapsed:.2f} seconds")
         
 evaluate()
  
 
-    print(f"Search Execution time: {elapsed:.2f} seconds")
+    
