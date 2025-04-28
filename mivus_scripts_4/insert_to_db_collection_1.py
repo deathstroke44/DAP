@@ -75,5 +75,8 @@ def evaluate():
     )
 
         elapsed = time.time() - start_time  # End timer
+        
+evaluate()
+ 
 
     print(f"Search Execution time: {elapsed:.2f} seconds")
