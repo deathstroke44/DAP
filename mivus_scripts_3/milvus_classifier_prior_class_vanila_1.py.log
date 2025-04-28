@@ -1,0 +1,35 @@
+Execution time: 430.78 seconds
+City: Atlanta
+Generating classification report majority voting
+              precision    recall  f1-score   support
+
+           0     0.8583    0.9400    0.8973      1984
+           1     0.6520    0.4200    0.5109       531
+
+    accuracy                         0.8302      2515
+   macro avg     0.7552    0.6800    0.7041      2515
+weighted avg     0.8147    0.8302    0.8157      2515
+
+Accuracy: 0.8302186878727634
+Generating classification report weighted
+              precision    recall  f1-score   support
+
+           0     0.8582    0.9425    0.8984      1984
+           1     0.6607    0.4181    0.5121       531
+
+    accuracy                         0.8318      2515
+   macro avg     0.7595    0.6803    0.7053      2515
+weighted avg     0.8165    0.8318    0.8168      2515
+
+Accuracy: 0.8318091451292247
+Generating classification report prior distribution
+              precision    recall  f1-score   support
+
+           0     0.9375    0.7707    0.8459      1984
+           1     0.4853    0.8079    0.6064       531
+
+    accuracy                         0.7785      2515
+   macro avg     0.7114    0.7893    0.7261      2515
+weighted avg     0.8420    0.7785    0.7953      2515
+
+Accuracy: 0.7785288270377734

@@ -1,0 +1,35 @@
+Execution time: 2836.43 seconds
+City: LosAngeles
+Generating classification report majority voting
+              precision    recall  f1-score   support
+
+           0     0.8324    0.9210    0.8745      4795
+           1     0.5417    0.3351    0.4140      1337
+
+    accuracy                         0.7932      6132
+   macro avg     0.6871    0.6280    0.6443      6132
+weighted avg     0.7690    0.7932    0.7741      6132
+
+Accuracy: 0.7932159165035877
+Generating classification report weighted
+              precision    recall  f1-score   support
+
+           0     0.8343    0.9064    0.8689      4795
+           1     0.5135    0.3545    0.4195      1337
+
+    accuracy                         0.7860      6132
+   macro avg     0.6739    0.6304    0.6442      6132
+weighted avg     0.7644    0.7860    0.7709      6132
+
+Accuracy: 0.7860404435746902
+Generating classification report prior distribution
+              precision    recall  f1-score   support
+
+           0     0.9086    0.6801    0.7779      4795
+           1     0.3968    0.7547    0.5201      1337
+
+    accuracy                         0.6963      6132
+   macro avg     0.6527    0.7174    0.6490      6132
+weighted avg     0.7970    0.6963    0.7217      6132
+
+Accuracy: 0.6963470319634704

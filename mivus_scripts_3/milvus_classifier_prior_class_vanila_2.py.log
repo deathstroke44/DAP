@@ -1,0 +1,35 @@
+Execution time: 1497.80 seconds
+City: Austin
+Generating classification report majority voting
+              precision    recall  f1-score   support
+
+           0     0.8979    0.9443    0.9205      3863
+           1     0.6423    0.4819    0.5506       801
+
+    accuracy                         0.8649      4664
+   macro avg     0.7701    0.7131    0.7356      4664
+weighted avg     0.8540    0.8649    0.8570      4664
+
+Accuracy: 0.8649228130360206
+Generating classification report weighted
+              precision    recall  f1-score   support
+
+           0     0.8938    0.9386    0.9157      3863
+           1     0.6096    0.4619    0.5256       801
+
+    accuracy                         0.8568      4664
+   macro avg     0.7517    0.7003    0.7206      4664
+weighted avg     0.8450    0.8568    0.8487      4664
+
+Accuracy: 0.8567753001715266
+Generating classification report prior distribution
+              precision    recall  f1-score   support
+
+           0     0.9628    0.7828    0.8635      3863
+           1     0.4491    0.8539    0.5886       801
+
+    accuracy                         0.7950      4664
+   macro avg     0.7059    0.8184    0.7261      4664
+weighted avg     0.8745    0.7950    0.8163      4664
+
+Accuracy: 0.7950257289879932

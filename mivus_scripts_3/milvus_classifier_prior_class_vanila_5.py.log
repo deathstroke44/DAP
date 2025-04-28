@@ -1,0 +1,35 @@
+Execution time: 5095.02 seconds
+City: Houston
+Generating classification report majority voting
+              precision    recall  f1-score   support
+
+           0     0.9139    0.9720    0.9421      7326
+           1     0.6822    0.3960    0.5011      1111
+
+    accuracy                         0.8962      8437
+   macro avg     0.7980    0.6840    0.7216      8437
+weighted avg     0.8834    0.8962    0.8840      8437
+
+Accuracy: 0.8961716249851843
+Generating classification report weighted
+              precision    recall  f1-score   support
+
+           0     0.9130    0.9631    0.9374      7326
+           1     0.6192    0.3951    0.4824      1111
+
+    accuracy                         0.8883      8437
+   macro avg     0.7661    0.6791    0.7099      8437
+weighted avg     0.8743    0.8883    0.8775      8437
+
+Accuracy: 0.8883489391963968
+Generating classification report prior distribution
+              precision    recall  f1-score   support
+
+           0     0.9720    0.7869    0.8697      7326
+           1     0.3771    0.8506    0.5225      1111
+
+    accuracy                         0.7953      8437
+   macro avg     0.6746    0.8188    0.6961      8437
+weighted avg     0.8937    0.7953    0.8240      8437
+
+Accuracy: 0.7953063885267275

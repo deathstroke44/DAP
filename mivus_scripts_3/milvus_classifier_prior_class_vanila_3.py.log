@@ -1,0 +1,35 @@
+Execution time: 1375.69 seconds
+City: Charlotte
+Generating classification report majority voting
+              precision    recall  f1-score   support
+
+           0     0.8731    0.9304    0.9008      3446
+           1     0.6634    0.5037    0.5726       939
+
+    accuracy                         0.8390      4385
+   macro avg     0.7682    0.7170    0.7367      4385
+weighted avg     0.8282    0.8390    0.8305      4385
+
+Accuracy: 0.8389965792474344
+Generating classification report weighted
+              precision    recall  f1-score   support
+
+           0     0.8703    0.9330    0.9006      3446
+           1     0.6657    0.4899    0.5644       939
+
+    accuracy                         0.8381      4385
+   macro avg     0.7680    0.7114    0.7325      4385
+weighted avg     0.8265    0.8381    0.8286      4385
+
+Accuracy: 0.8380843785632839
+Generating classification report prior distribution
+              precision    recall  f1-score   support
+
+           0     0.9358    0.7702    0.8450      3446
+           1     0.4887    0.8062    0.6085       939
+
+    accuracy                         0.7779      4385
+   macro avg     0.7123    0.7882    0.7267      4385
+weighted avg     0.8401    0.7779    0.7943      4385
+
+Accuracy: 0.7778791334093501

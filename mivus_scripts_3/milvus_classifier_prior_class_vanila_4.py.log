@@ -1,0 +1,35 @@
+Execution time: 2099.57 seconds
+City: Dallas
+Generating classification report majority voting
+              precision    recall  f1-score   support
+
+           0     0.9032    0.9820    0.9410      4723
+           1     0.5952    0.2010    0.3005       622
+
+    accuracy                         0.8911      5345
+   macro avg     0.7492    0.5915    0.6207      5345
+weighted avg     0.8674    0.8911    0.8664      5345
+
+Accuracy: 0.8911131898971001
+Generating classification report weighted
+              precision    recall  f1-score   support
+
+           0     0.9072    0.9670    0.9361      4723
+           1     0.4984    0.2492    0.3323       622
+
+    accuracy                         0.8834      5345
+   macro avg     0.7028    0.6081    0.6342      5345
+weighted avg     0.8597    0.8834    0.8659      5345
+
+Accuracy: 0.883442469597755
+Generating classification report prior distribution
+              precision    recall  f1-score   support
+
+           0     0.9650    0.7652    0.8536      4723
+           1     0.3069    0.7894    0.4419       622
+
+    accuracy                         0.7680      5345
+   macro avg     0.6359    0.7773    0.6478      5345
+weighted avg     0.8884    0.7680    0.8057      5345
+
+Accuracy: 0.7680074836295603
