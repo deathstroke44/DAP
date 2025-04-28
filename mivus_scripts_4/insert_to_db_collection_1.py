@@ -43,8 +43,7 @@ def insert_data(fold):
 
     # Insert once per file
     res = client.insert(collection_name="collection_1", data=batch_data)
-    print(f"Inserted {len(batch_data)} records from {dataset}")
-    print(res)
+    print(f"Inserted {len(batch_data)} records from {fold} count {cnt}")
 
 # Loop through and insert
 
