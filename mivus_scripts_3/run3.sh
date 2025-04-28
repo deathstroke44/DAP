@@ -3,7 +3,7 @@
 #SBATCH -A PAS2030
 #SBATCH --ntasks-per-node=1
 
-milvus_classifier_prior_class_vanila_3.py &> milvus_classifier_prior_class_vanila_3.py.log
+python milvus_classifier_prior_class_vanila_3.py &> milvus_classifier_prior_class_vanila_3.py.log
 
 
 
