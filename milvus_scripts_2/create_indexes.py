@@ -7,7 +7,8 @@ connections.connect("default", host="localhost", port="19530")
 
 
 def create_vector_database(db_name,_index_type,_index_name,_metric_type,_params):
-    client = MilvusClient(db_name)
+    client = MilvusClient(uri="http://localhost:19530",token="root:Milvus")
+
     index_params = client.prepare_index_params()
 
     index_params.add_index(
