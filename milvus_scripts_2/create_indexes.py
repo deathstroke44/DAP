@@ -17,7 +17,8 @@ def create_vector_database(db_name,_index_type,_index_name,_metric_type,_params)
     if client.has_collection(collection_name='collection_1'):
         client.drop_collection(collection_name='collection_1')
     client.create_collection(
-        collection_name='collection_1'
+        collection_name='collection_1',
+        dimension=315
     )
 
     client.create_index(
